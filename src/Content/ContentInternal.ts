@@ -28,12 +28,14 @@
     }
 
     private _type: string = this._contentType.name;
+
     /**
      * Type of the Content, e.g.: 'Task' or 'User'
      */
     public get Type(): string {
         return this._type;
     }
+    
     public set Type(newType: string) {
         this._type = newType;
     }
